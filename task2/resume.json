@@ -1,0 +1,43 @@
+{
+  "name":"Raviteja",
+  "email":"raviteja@gmail.com",
+  "image":"profile.png",
+  "carrer_objective": " To build a career in growing organization where can I get the opportunity to prove my abilities by accepting the challenges.",
+  "edu_qualifs":[
+  	{
+  		"course":"B. Tech",
+  		"institution": "ENGINEERING COLLEGE",
+  		"university": "University",
+  		"per": "9.62",
+  		"year": "2021"
+  	},
+  	{
+  		"course":"Intermediate",
+  		"institution": "Sri Chaitanya Junior College",
+  		"university": "BIEAP",
+  		"per": "98.3",
+  		"year": "2017"
+  	},
+  	{
+  		"course":"X Class",
+  		"institution": "Chaitanya School",
+  		"university": "SSC",
+  		"per": "9.8",
+  		"year": "2015"
+  	}
+  ],
+  "technical_skills" :{
+		"programming_skills" : "C Programming, C++ Programming, Java, Python ",
+		"web_technologies" : "HTML, CSS, JS, PHP" ,
+		"databases": "Mysql ,Oracle "
+	},
+
+	"achievements": [
+		"Selected to SMART INDIA HACKATHON Runner up",
+		"Ranked in coding events."
+	],
+	"hobbies":[
+		"Love to play chess,",
+		"Listening Music."
+	]
+}

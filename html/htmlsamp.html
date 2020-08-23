@@ -1,0 +1,82 @@
+<!-- https://docs.google.com/document/d/1nbASp-igFXL_ZEM9Xzvg3OTEXxvdqvs0hz-Upht642g/edit?usp=sharing -->
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<!-- All  meta data is here -->
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.( just to understand row)flex {
+			display: flex;
+			/*Row direction*/
+			/*Direction of the child elements*/
+			flex-direction: row;
+			/* Content position horizontal*/
+			justify-content: center;
+			/* For wrapping Text */
+			flex-wrap: wrap;
+
+		}
+		.flex{
+			display: flex;
+			/* Div height in the page (height mention chesthe vertical alignments avvuthundi)*/
+			height: 800px;
+			/*align-items: flex-end;*/
+			/*align-items: stretch;*/
+			flex-wrap: wrap;
+			/* Content position vertical */
+			/*align-content: flex-start;*/
+			align-content: space-around;
+
+
+		}
+		.flex div{
+			padding: 1%;
+			margin: 1%;
+			border: 2px solid #ddd;
+			background-color: skyblue;
+			font-size: 80px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="flex">
+		<!-- <div>A</div>
+		<div>B</div>
+		<div>C</div>
+		<div>D</div>
+		<div>E</div>
+		<div>F</div>
+		<div>G</div>
+		<div>H</div>
+		<div>A</div>
+		<div>B</div>
+		<div>C</div>
+		<div>D</div>
+		<div>E</div>
+		<div>F</div>
+		<div>G</div>
+		<div>H</div>
+		<div>A</div>
+		<div>B</div>
+		<div>C</div>
+		<div>D</div>
+		<div>E</div>
+		<div>F</div>
+		<div>G</div>
+		<div>H</div> -->
+		<div style="order: 3;">1</div>
+		<div style="order: 2;">2</div>
+		<div style="order: 4;">3</div>
+		<div style="order: 5;">4</div>
+		<!-- 	A number specifying how much the item will grow relative to the rest of the flexible items.  -->
+		<div style="flex-grow: 5;">4</div>
+		<!-- The flex-basis property specifies the initial length of a flexible item. -->
+		<div style="flex-basis: 500px;">4</div>
+	</div>
+
+</body>
+</html>

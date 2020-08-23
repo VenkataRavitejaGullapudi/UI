@@ -1,0 +1,59 @@
+<!-- //Object -->
+
+<!-- 
+A java script obj is an entity f having state and behavior 
+
+Created in 3 ways
+1. Object literal 
+object ={property1:value1,property2:value2, ...., propertyn:valuen}
+
+2. Create an instance of an object using new keyword
+
+3. By using object constructor( using new keyword)
+
+
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		//1.
+		// student = {
+		// 	id:60,
+		// 	name:"Ravi",
+		// 	branch:"IT"
+		// }
+		// document.writeln(student.id);
+
+		// var student = new Object();
+		// student.id = 60;
+		// student.name = "Ravi";
+		// student.branch = "IT";
+
+		// document.writeln(student.id);
+
+		// function student(id,name,branch)
+  //          {
+  //              this.id = id;
+  //              this.name = name;
+  //              this.branch = branch;
+  //          } 
+  //          e=new student(53,"sri","it");
+  //          document.writeln(e.id + " " +e.name + " " +e.branch);
+
+		function student(id, name, branch){
+			this.id = id;
+			this.name = name;
+			this.branch = branch;
+		}
+		 e  = new student(60,"Ravi","IT");
+		 document.writeln(e.id);
+
+
+	</script>
+</head>
+<body>
+
+</body>
+</html>

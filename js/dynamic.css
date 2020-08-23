@@ -1,0 +1,11 @@
+.name{
+	background: orange;
+}
+.age{
+	background: violet;
+}
+
+table, td{
+	border: 2px solid orange;
+
+}

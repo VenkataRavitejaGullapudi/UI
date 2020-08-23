@@ -1,0 +1,57 @@
+function App() {
+  return (
+    <div className="App">
+      {/* <Card></Card> */}
+      <BrowserRouter>
+          <Route exact path="/" component={Card}/>
+          <Route path="/resume" component={Resume}/>
+      </BrowserRouter>
+    </div>
+  );
+}
+
+
+
+let Card= () =>{
+  let profile=data.profiles;
+  console.log(profile)
+  return(
+    <div className="row ">
+      {profile.map((carddetails,index)=>(
+        <div className="col-lg-4 col-md-4 col-sm-10 mt-1" key={ index }>
+          <div className="card text-center">
+            <div className="card-body">
+              <h1>{carddetails.details.name}</h1>
+              <Link to={{pathname:'/resume', sameCardData:{id:index}}} className="btn btn-primary">View Details</Link>
+            </div>
+          </div>
+        </div>
+      ))} 
+    </div>
+  );
+}
+
+
+
+
+
+let Resume=(props)=>{
+    let information=data.profiles[props.location.sameCardData.id];
+    console.log(information)
+    return(
+        <div className="row">
+            <div className="col-lg-3 m-1">
+                <div className="card">
+                    <div className="card-body">
+                        <h1>{information.details.name}</h1>
+                    </div>
+                </div>
+            </div>
+            <div className="col-lg-8 m-1">
+                <h2>Career Object:</h2>
+                <hr />
+                <p> { information.career } </p>
+            </div>
+        </div>
+    )
+}
