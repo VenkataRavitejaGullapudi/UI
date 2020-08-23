@@ -6,8 +6,8 @@
   "edu_qualifs":[
   	{
   		"course":"B. Tech",
-  		"institution": "ENGINEERING COLLEGE",
-  		"university": "University",
+  		"institution": "SRK ENGINEERING COLLEGE",
+  		"university": "JNTUK",
   		"per": "9.62",
   		"year": "2021"
   	},
@@ -20,20 +20,20 @@
   	},
   	{
   		"course":"X Class",
-  		"institution": "Chaitanya School",
+  		"institution": "Sri Chaitanya School",
   		"university": "SSC",
   		"per": "9.8",
   		"year": "2015"
   	}
   ],
   "technical_skills" :{
-		"programming_skills" : "C Programming, C++ Programming, Java, Python ",
+		"programming_skills" : "C Programming, C++ Programming, Java ",
 		"web_technologies" : "HTML, CSS, JS, PHP" ,
 		"databases": "Mysql ,Oracle "
 	},
 
 	"achievements": [
-		"Selected to SMART INDIA HACKATHON Runner up",
+		"24 hour Hackathon Runner up",
 		"Ranked in coding events."
 	],
 	"hobbies":[
