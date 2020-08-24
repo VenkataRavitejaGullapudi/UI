@@ -1,0 +1,80 @@
+{
+    "profiles":[
+        {
+        "name":"First User",
+        "email":"user 1@gmail.com",
+        "image":"profile.png",
+        "mobile":"1111111111",
+        "carrer_objective": " To build a career in growing organization where can I get the opportunity to prove my abilities by accepting the challenges.",
+        "edu_qualifs":[
+            {
+                "course":"B. Tech",
+                "institution": "College1 ENGINEERING COLLEGE",
+                "university": "University1",
+                "per": "9.62",
+                "year": "2021"
+            },
+            {
+                "course":"Intermediate",
+                "institution": "Junior College1",
+                "university": "BIEAP",
+                "per": "98.3",
+                "year": "2017"
+            },
+            {
+                "course":"X Class",
+                "institution": "Chaitanya School1",
+                "university": "SSC",
+                "per": "9.8",
+                "year": "2015"
+            }
+        ],
+            "achievements": [
+                "Achievement1 of user 1",
+                "Achievement2 of user 1"
+            ],
+            "hobbies":[
+                "Hobby1 of user 1,",
+                "Hobby2 of user 1."
+            ]
+        },
+        {
+        "name":"Second User",
+        "email":"user 2@gmail.com",
+        "image":"profile.png",
+        "mobile":"2222222222",
+        "carrer_objective": " To build a career in growing organization where can I get the opportunity to prove my abilities by accepting the challenges.",
+        "edu_qualifs":[
+            {
+                "course":"B. Tech",
+                "institution": "College2 ENGINEERING COLLEGE",
+                "university": "University2",
+                "per": "9.62",
+                "year": "2022"
+            },
+            {
+                "course":"Intermediate",
+                "institution": "Junior College2",
+                "university": "BIEAP",
+                "per": "98.3",
+                "year": "2018"
+            },
+            {
+                "course":"X Class",
+                "institution": "Chaitanya School2",
+                "university": "SSC",
+                "per": "9.8",
+                "year": "2016"
+            }
+        ],
+            "achievements": [
+                "Achievement2 of user 2",
+                "Achievement2 of user 2"
+            ],
+            "hobbies":[
+                "Hobby2 of user 2,",
+                "Hobby2 of user 2."
+            ]
+        }
+    ]
+}
